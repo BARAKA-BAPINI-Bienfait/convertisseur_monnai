@@ -7,7 +7,11 @@ class ListeDevises {
     symbole: '\$',
   );
 
-  static const cdf = Devise(code: 'CDF', nom: 'Franc congolais', symbole: 'FC');
+  static const cdf = Devise(
+    code: 'CDF', 
+    nom: 'Franc congolais', 
+    symbole: 'FC'
+    );
 
   static const toutes = [usd, cdf];
 }
